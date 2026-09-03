@@ -1,3 +1,5 @@
 no_of_pages =  69
 rating =  4.2
-sauce = input(("no_of_pages?"))
+print("no_of_pages?")
+sauce = tonumber(io.read())
+print(sauce)

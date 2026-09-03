@@ -1,0 +1,20 @@
+story = {}
+story[1] = {}
+story[1][1] = "You wake up on times square and are asked for some pocket change by a homeless person."
+story[1]["y"] =  "You give him some change you found in your pocket. The homeless person says thank you and tells you that all good deeds get rewarded."
+story[1]["n"] = "You deny the homeless guy his request. He gets angry and tells you you will soon come to regret your choice."
+story[2] = {}
+story[2][1] = "You realize you're kinda hungry. Checking your phone you see there's two nearby options for some quick food at this hour: A McDonald's or a Bodega."
+story[2]["Bodega"] = "You get some snacks and pay for them at the counter. As you walk outside holding your snacks, you see the same guy from earlier again. He's with a tall and kinda menacing looking guy but as the homeless guy sees you he smiles."
+story[2]["McDonald's"] = "You order a McFlurry on the kiosk. as you're waiting for your order to be prepared, a visibly drunk guy steps up to the counter and starts arguing with the cashier over his order having fewer chicken nuggies than he ordered"
+story[3] = {}
+story[3]["Bodega"] = {}
+story[3]["Bodega"]["approach"] = "you approach him and ask what's up. he asks if there's a problem. you notice the guy he's with start getting a bit panicked. you try talking your way out but it's too late. the homeless person tries calming his friend down but he shoots you point blank. you're dead."
+story[3]["Bodega"]["nod"] = "you nod back and ask for directions home. just 2 more blocks. you get home with a good feeling having eaten a tasty bageland befriended a homeless person who seems to have high ranking street connections. you get a good night's sleep."
+story[3]["McDonald's"] = {}
+story[3]["McDonald's"]["help"] = "You decide to help out the cashier and try to calm down the drukie. the cashier says thank you, hands you your mcflurry and asks you if you want a medium soft drink on tha house"
+story[3]["McDonald's"]["ignore"] = "You decide this is not worth your time. Your order number pops up as collection ready. you get meflury, check phone for directions home. just 5 more blocks. you get home but on your step, the homeless person you saw in the beginning bocks your way, tells you he saw you didn't even help out the cashier. he makes a signal. you hear a loud noise, then nothing. you're dead."
+story[4] = {}
+story[4]["Sugar"] = "You gratefully accept her offer and ask for a regular coke. you take a few sips. your teeth feel acidic. you remember you already had 10x the recommended amount of sugar. your heart starts beating fast. you die of diabetes or sum"
+story[4]["Zero"] = "You gratefully accept her offer and ask for a coke zero. you take a few sips, eat your mcflurry and check your phone for directions to get home. just 5 blocks away. you decide to eat the rest while walking and go home. you lay in your bed with a good feeling in your tummy (not just mcflurry) and fall asleep"
+
